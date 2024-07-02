@@ -1,6 +1,5 @@
 Here's the README content in Markdown format, limited to deployment in a single environment:
 
-```markdown
 
 # Node.js Application with Jest Testing and GitHub Actions CI/CD Workflow
 
