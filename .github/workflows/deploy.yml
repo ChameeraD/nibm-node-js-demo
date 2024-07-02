@@ -29,7 +29,7 @@ jobs:
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
         run: |
-          git remote add heroku https://git.heroku.com/<your-heroku-app>.git
+          git remote add heroku https://git.heroku.com/nibm-nodejs-demo.git
           echo "machine api.heroku.com" > ~/.netrc
           echo "  login ${{ secrets.HEROKU_API_KEY }}" >> ~/.netrc
           echo "  password ${{ secrets.HEROKU_API_KEY }}" >> ~/.netrc
